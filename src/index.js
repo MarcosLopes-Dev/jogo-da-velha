@@ -50,8 +50,8 @@ function Square(props) {
     }
   
       return (
-        <div>
-          <div className="status">{status}</div>
+        <div id="borderimg">
+          <div className="font-effect-neon">{status}</div>
           <div className="board-row">
             {this.renderSquare(0)}
             {this.renderSquare(1)}

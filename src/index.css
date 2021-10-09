@@ -1,7 +1,15 @@
 body {
+    
     font: 20px "Century Gothic", Futura, sans-serif;
-    margin: 50px;
-    background: #1e800b;
+    margin: 100px;
+    background: #384d94;
+  }
+  #borderimg { 
+    border: 10px solid transparent;
+    height: 120px;
+    width: 150px;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
   }
   
   ol, ul {
@@ -12,6 +20,7 @@ body {
     clear: both;
     content: "";
     display: table;
+   
   }
   
   .status {
@@ -19,7 +28,7 @@ body {
   }
   
   .square {
-    background: rgb(111, 231, 240);
+    background: rgb(229, 111, 240);
     border: 2px solid rgb(5, 5, 5);
     float: left;
     font-size: 24px;
@@ -53,7 +62,7 @@ body {
   }
   
   .game-info {
-    margin-left: 20px;
+    margin-left: 50px;
   }
   
 
